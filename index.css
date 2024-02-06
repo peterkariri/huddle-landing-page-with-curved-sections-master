@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 20px 20px;
+
+}
+#header-img{
+    width:90px;
+    text-align: center;
+    position: relative;
+    right: 30px;
+    margin: 10px auto;
+    top: 1px;
+    
+}
+header button{
+    float: right;
+    border-radius: 10px;
+    width: 30%;
+    height: 20px;
+    font-size: 10px;
+    color: hsl(321, 100%, 78%);
+    border: solid 1.5px hsl(321, 100%, 78%);
+}
+.build{
+    margin: 70px auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.build h1{
+    align-items: center;
+     margin-bottom: 20px;
+     text-align: center;
+     font-size: 30px;
+}
+.build p{
+    text-align: center;
+}
+
+.get{
+    align-items: center;
+    text-align: center;
+
+}
+.get button{
+    background-color: rgb(227, 38, 211);
+    color: white;
+    border-radius: 20px;
+    width: 55%;
+    height: 35px;
+}
+.images{
+    width: 90%;
+    align-items: center;
+    margin: 80px 45px 30px ;
+}
+.images img{
+    width: 80%;
+}
+.followers{
+    display: block;
+    text-align: center;
+}
+.followers img{
+    width: 8%;
+    position: relative;
+    right: 10%;
+    margin-top: 80px;
+}
+.folowers h2{
+    text-align:justify;
+}
+ .followers h2 span:nth-child(1){
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+.followers h2{
+   font-size: 12px;
+   font-weight: lighter;
+   
+}
+.grow{
+    width: 100%;
+    margin: 120px auto;
+    text-align: center;
+}
+.grow img{
+    width: 100%;
+}
+.grow h3{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.grow p{
+    position: relative;
+}
+.ready{
+    text-align: center;
+}
+.ready h1{
+      font-size: 25px;
+      margin-bottom: 30px;
+}    
+.ready a button{
+    color: white;
+    height: 30px;
+    width: 50%;
+    background-color: hsl(314, 83%, 54%);
+    border-radius: 20px;
+    font-size: 11px;
+}
+#top{
+    width: 100%;
+    margin-top: 120px;
+    display: block;
+}
+
+footer{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color:hsl(192, 100%, 9%) ;
+    display: block;
+    margin-top:-10px;
+
+
+}
+.huddle{
+    align-items: center;
+}
+.huddle img{
+    margin-bottom: 15px;
+}
+.huddle p{
+    font-size: 14px;
+    word-spacing: normal;
+    text-align: justify;
+}
+.extras{
+    width: 200px;
+}
+.extras img{
+    width: 30px;
+}
+.news{
+    margin-top: -10px;
+    color: white;
+}
+.news h1{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.news p{
+    top: 40px;
+    font-size: 13px;
+    position: relative;
+    left:20px ;
+    width: 90%;
+}
+
+.form{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.form input{
+    width: 70%;
+    height: 25px;
+    border-radius: 10px;
+    border: solid 1px white;
+}
+.form button{
+    width: 40%;
+    height: 25px;
+    float: right;
+    margin-top: 7px;
+    position: relative;
+    border: solid 1px hsl(314, 83%, 54%);
+    right: 38px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: hsl(314, 83%, 54%);
+}
+.huddle{
+    text-align: justify;
+    color:white;
+    margin:30px ;
+    margin-top: 150px;
+}
+#span{
+    text-align: justify;
+    position: relative;
+    bottom: 20px;
+    font-size: 25px;
+    left: 30px;
+    font-weight: 800;
+    height: 10px;
+
+}
+.huddle img{
+    width: 50%;
+    position:relative;
+    top:10px;
+    left:2px;
+
+}
+.foot{
+    color: aliceblue;
+    display: block;
+    padding: 25px;
+    margin: auto;
+    gap: 10px;
+    position: relative;
+    bottom: 20px;
+    
+}
+    
+.foot a{
+    color: aliceblue;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+   
+}
+.foot span{
+    position: relative;
+    bottom: 12px;
+}
+.foot img{
+    padding-right: 15px;
+    width: 20px;
+    text-align: justify;
+    padding-bottom: 10px;
+    
+}
+
+
+.extras{
+    text-align: center;
+    width: 100%;
+    position: relative;
+
+}
+.extras img{
+    border-radius: 30px;
+    position: relative;
+    width: 40px;
+}
+@media screen and (min-width:375px){
+ body{
+     background-color:blue ;
+}
+
+
+   
+    
+}
+
+
+
+
+
+
+
+
+
